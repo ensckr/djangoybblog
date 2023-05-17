@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<div class="jumbotron text-center">
+<h3>Yazılım Bilimi Bloğuna Hoşgeldiniz</h3>
+<p>Bu blogta geliştiriciler olarak blog yazılarınızı paylaşabilir ve insanlara yardımcı olabilirsiniz</p>
+</div>
+{% if answer == "evet" %}
+<p>Cevabımız evetmiş...</p>
+{% else %}
+<p>Cevabımız evet değilmiş...</p>
+{% endif %}
+
+{% endblock  %}
